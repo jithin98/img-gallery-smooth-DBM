@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+/* head section */
+
+header{
+    background-color: rgba(23, 23, 23, 0.15);
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    top:0;
+   
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+header a{
+    text-decoration: none;
+    margin-right: 30px;
+    font-family: tahoma;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: beige;
+}
+/* head section  end*/
+
+
+/* banner section section */
+.banner-container{
+   
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgb(56, 98, 175),rgb(13, 51, 114));
+    background-attachment: fixed;
+  
+    display: flex;
+  
+}
+.banner-container .container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+   align-items: center ;
+}
+
+/* banner section section  end*/
+
+/* left section section */
+
+.left-section{
+  width: 60%;
+  margin-left: 5%;
+
+
+}
+
+.left-section h1{
+    margin: 0;
+    font-size: 43px;
+    color: beige;
+
+}
+.left-section p{
+   font-size: 13px;
+   letter-spacing: 2px;
+   line-height: 20px;
+   color: beige;
+}
+.left-section button{
+color:rgb(255, 255, 255); 
+font-size: 20px;
+margin-top: 20px;
+border-radius: 20px;
+
+background-image: linear-gradient(#442fff, #033857, #3d2569, #0e336b);
+border-radius: 30px;
+box-shadow:
+    0 0 0 1px #ee6352,
+    0 0 0 2px #d45379,
+    0 0 0 3px #a4558f,
+    0 0 0 4px #6d588e,
+    0 0 0 5px #405378;
+
+ border-color: black;
+
+    width: 90px;
+    height: 30px;
+
+    cursor: pointer;
+
+}
+
+/* left section section end */
+
+/* right section  */
+.right-section {
+    width: 25%;
+   margin-right: 10%;
+     border-radius: 15px;
+    background-color: white;
+    padding: 40px 0;
+    box-shadow: 0 5px 6px rgba(23, 23, 23, 0.15);
+   
+
+}
+.right-section h4{
+    color:rgb(3, 81, 206) ;
+    font-size: 22px;
+   margin-left:60px;
+
+}
+.input-group{
+    color: #0e336b;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 6px auto;
+    position: relative;;
+
+}
+.input-group input{
+ 
+  outline: none;
+border: none;
+border-bottom:2px solid  rgb(3, 81, 206);
+
+margin: 15px auto;
+width: 100%;
+
+
+}
+.input-group label{
+  margin-top: 15px;
+   position: absolute;  
+  display: none;
+
+
+  
+}
+
+
+.input-group input:focus ~ label{
+ color: rgb(29, 126, 0); 
+
+ top: -20px;
+ display: block;
+
+
+
+  }
+
+  
+.input-group input:focus{
+ 
+    border-bottom:2px solid  rgb(29, 126, 0); 
+    transition: 0.5s ease-in-out;
+     }
+   
+
+  .submit-section{
+      text-align: center;
+  }
+  .submit-button{
+    background-color: rgb(3, 81, 206);
+    margin: 50;
+    color: white;
+    border-radius: 30%;
+    width: 150px;
+    height: 40px;
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+
+     
+    
+    }
+/* right section end */
+
+/* image sections  */
+
+.section-two{
+display: flex;
+height: 100vh;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.image-container{
+    width: 100%;
+    height: 350px;
+
+}
+.image-container img{
+    width: 100%;
+    height:100%;
+    margin-right:3px;
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+}
+.image-container img:hover{
+  transform: translateX(20px) scale(1.5);
+ 
+
+}
+.card-contianer{
+width: 350px;
+border-radius: 15px;
+box-shadow: 10px 5px 26px rgb(63, 63, 63);
+overflow: hidden;
+text-align: center;
+}
+.card-contianer h1{
+    color: #405378;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
